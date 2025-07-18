@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 24px; /* mesmo padding do .menu */
+  height: 80px; /* defina uma altura para o header */
+}
+
+.menu {
+  align-items: center;
+  gap: 2rem;
+}
+
+
+
+
+.pesquisar  {  
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #121212;
+  border-radius: 8px;
+  height: 50px;
+  width: 300px;
+  gap: 10px;
+}
+
+.pesquisar input {
+    border: none;
+    padding: 0 10px;
+    width: 86%;
+    background: transparent;
+    outline: none;
+}
+
+.direito ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.direito ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 20px 5%;
+  flex-wrap: nowrap;
+  
+  
+}
+
+
+.video-principal {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.video-principal img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.title {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 10px 0 10px 0;
+}
+
+
+.menu-like ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.inscrevase {
+  background:  red;
+  padding: 1%;
+  color: white;
+
+}
+.inscrevase:hover {
+  background:  rgba(255, 0, 0, 0.644);
+  cursor: pointer;
+}
+
+
+.incrito {
+  
+  width: 20%;
+  justify-content: center;
+}
+
+span {
+  color: #515151;
+  font-size: 14px;
+}
+
+
+.descricao p {
+  margin: 1% 0 1% 0;
+}
+
+.title,
+.menu-like,
+.descricao {
+  width: 100%; 
+}
+
+
+
+.sidebar {
+  flex: 1;
+  padding-left: 12px;
+  
+}
+.sidebar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.sidebar ul li {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.sidebar ul li img {
+  width: 168px;
+  height: 94px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.info-video {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #000;
+}
+
+.info-video p:first-child {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.info-video p:nth-child(2),
+.info-video p:nth-child(3) {
+  color: #606060;
+  font-size: 12px;
+  line-height: 1.4;
+}
